@@ -1,4 +1,4 @@
-package org.elasticsearch.index.analysis;
+package org.opensearch.index.analysis;
 
 import org.nlpcn.commons.lang.util.StringUtil;
 

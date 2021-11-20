@@ -1,4 +1,4 @@
-package org.elasticsearch.index.analysis;
+package org.opensearch.index.analysis;
 
 /**
  * Licensed to the Apache Software Foundation (ASF) under one or more
@@ -22,7 +22,7 @@ import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.apache.lucene.analysis.tokenattributes.OffsetAttribute;
 import org.apache.lucene.analysis.tokenattributes.PositionIncrementAttribute;
-import org.elasticsearch.analysis.PinyinConfig;
+import org.opensearch.analysis.PinyinConfig;
 import org.nlpcn.commons.lang.pinyin.Pinyin;
 
 import java.io.IOException;

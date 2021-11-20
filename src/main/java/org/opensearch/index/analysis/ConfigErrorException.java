@@ -1,4 +1,4 @@
-package org.elasticsearch.index.analysis;
+package org.opensearch.index.analysis;
 
 /**
  * Created by medcl on 16/8/22.

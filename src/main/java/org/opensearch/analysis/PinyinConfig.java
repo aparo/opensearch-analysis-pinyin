@@ -1,6 +1,6 @@
-package org.elasticsearch.analysis;
+package org.opensearch.analysis;
 
-import org.elasticsearch.common.settings.Settings;
+import org.opensearch.common.settings.Settings;
 
 /**
  * Created by medcl on 15/11/26.

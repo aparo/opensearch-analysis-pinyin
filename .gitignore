@@ -10,3 +10,6 @@
 /.classpath
 /*.ipr
 /*.iws
+bin/
+build/
+.gradle/

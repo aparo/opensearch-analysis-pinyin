@@ -1,31 +1,10 @@
-Pinyin Analysis for Elasticsearch
-==================================
+Pinyin Analysis for OpenSearch
+==============================
+
+This is a port of [medcl's Pinyin Analysis](https://github.com/medcl/elasticsearch-analysis-pinyin).
+
 
 This Pinyin Analysis plugin is used to do conversion between Chinese characters and Pinyin, integrates NLP tools (https://github.com/NLPchina/nlp-lang).
-
-    --------------------------------------------------
-    | Pinyin Analysis Plugin        | Elasticsearch  |
-    --------------------------------------------------
-    | master                        | 7.x -> master  |
-    --------------------------------------------------
-    | 6.x                           | 6.x            |
-    --------------------------------------------------  
-    | 5.x                           | 5.x            |
-    --------------------------------------------------  
-    | 1.8.1                         | 2.4.1          |
-    --------------------------------------------------  
-    | 1.7.5                         | 2.3.5          |
-    --------------------------------------------------  
-    | 1.6.1                         | 2.2.1          |
-    --------------------------------------------------
-    | 1.5.0                         | 2.1.0          |
-    --------------------------------------------------
-    | 1.4.0                         | 2.0.x          |
-    --------------------------------------------------
-    | 1.3.0                         | 1.6.x          |
-    --------------------------------------------------
-    | 1.2.2                         | 1.0.x          |
-    --------------------------------------------------
 
 The plugin includes analyzer: `pinyin` ,  tokenizer: `pinyin` and  token-filter:  `pinyin`.
 
