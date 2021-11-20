@@ -3,8 +3,13 @@ Pinyin Analysis for OpenSearch
 
 This is a port of [medcl's Pinyin Analysis](https://github.com/medcl/elasticsearch-analysis-pinyin).
 
-
 This Pinyin Analysis plugin is used to do conversion between Chinese characters and Pinyin, integrates NLP tools (https://github.com/NLPchina/nlp-lang).
+
+## Installation
+
+| OS    | Command |
+| ----- | ------- |
+| 1.1.0  | `bin/opensearch-plugin install https://github.com/aparo/opensearch-analysis-pinyin/releases/download/1.1.0/opensearch-analisys-pinyin-1.1.0.zip` |
 
 The plugin includes analyzer: `pinyin` ,  tokenizer: `pinyin` and  token-filter:  `pinyin`.
 

@@ -73,11 +73,11 @@ githubRelease.doFirst {
   }
 
   // check if zip file is there
-  assert file("build/distributions/opensearch-opensearch-analisys-pinyin-${version}.zip").exists()
+  assert file("build/distributions/opensearch-analisys-pinyin-${version}.zip").exists()
 
   // rename zip file
   def currentVersion = version.replace('-SNAPSHOT', '')
-  def filename = "build/distributions/opensearch-opensearch-analisys-pinyin-${currentVersion}.zip"
+  def filename = "build/distributions/opensearch-analisys-pinyin-${version}.zip"
   Files.copy(file("build/distributions/opensearch-analisys-pinyin-${version}.zip").toPath(), file(filename).toPath())
 
   // configuration
