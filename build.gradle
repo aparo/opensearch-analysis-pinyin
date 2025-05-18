@@ -67,7 +67,7 @@ thirdPartyAudit.enabled = false
 
 buildscript {
     ext {
-        opensearch_version = System.getProperty("opensearch.version", "2.19.1")
+        opensearch_version = System.getProperty("opensearch.version", "2.19.2")
     }
 
     repositories {
