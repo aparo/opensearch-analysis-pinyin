@@ -26,6 +26,7 @@ This Pinyin Analysis plugin is used to do conversion between Chinese characters 
 | 2.12.0 | `bin/opensearch-plugin install https://github.com/aparo/opensearch-analysis-pinyin/releases/download/2.12.0/opensearch-analysis-pinyin.zip` |
 | 2.13.0 | `bin/opensearch-plugin install https://github.com/aparo/opensearch-analysis-pinyin/releases/download/2.13.0/opensearch-analysis-pinyin.zip` |
 | 2.14.0 | `bin/opensearch-plugin install https://github.com/aparo/opensearch-analysis-pinyin/releases/download/2.14.0/opensearch-analysis-pinyin.zip` |
+| 2.15.0 | `bin/opensearch-plugin install https://github.com/aparo/opensearch-analysis-pinyin/releases/download/2.15.0/opensearch-analysis-pinyin.zip` |
 
 The plugin includes analyzer: `pinyin` ,  tokenizer: `pinyin` and  token-filter:  `pinyin`.
 
